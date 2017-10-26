@@ -1,0 +1,41 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When I initialize git repository by using 'git init' the folder called .git/ shows in current folder. It must happened
+	to create repository, add files and make commits.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Staging area is a place where I can store files, which will be add to repository as commit. I can remove files from staging
+	area if I added it by accindent. If I remove file from staging area I don't remove it from working directory. So staging
+	area is place between working directory and repository, what help me to control making changes in my project.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	I can use command diff (diff, and diff --staged), which shows me how many differences and what kind of differences I made. Using it I can decide to
+	make commit or not.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Branches helps us when we want to create two version of one project. F. ex. one project in polish version, and second 
+	in italian version. We don't have to make linear commits, where one commit is result from previous version, but we can
+	create branches and many versions which can develop apart.
+
+How do the diagrams help you visualize the branch structure?
+
+	We can see all commits in diagram, what help us se all commits and branches. We can see on diagram where was created
+	new branch and how many commits was done for that branch. 
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	Merging two branches make one commit with all changes from two branches. After that, we can delete the label of one 
+	of the branch because we have one merged.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+	Doing merges manually there is very small risk that there will be conflicts. If we do merge automaticly, the conflicts 
+	may apear.

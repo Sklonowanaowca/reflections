@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff command shows differences between two files and we can see which and how many lines was inserted or deleted.
+	In the settings we can set the colours and see changes in files coloured in green (inserted) and red (deleted).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can go back to the previous version and fix my problem. I don't have to ook for the bug many hours.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually commits are good if we can to decide if it is good time to do commit. Automatic commits are good because 
+	we don't have to think about commits and there is no risk that we don't do the commit for a week.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is program which is mostly using to writing code what means that one project contains many files related
+	to others. It is important to save all changes in all files. For document files wich are mostly storing on Google Drive
+	there is no matter if we can saving multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    command 'git log' shows us all commits and every commit has unique ID, tittle, author and date. 'git diff' help	us
+	to compare two commits shows in red line which was deleted and line which was inserted in green.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Command 'git checkout' let me restore previous version of my project many times (while previous versions exists)
+	and check if that version of code is correct.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I am working on AndroidStudio project. I am writing an mobile application which will help people to organise their
+	shopping lists.
